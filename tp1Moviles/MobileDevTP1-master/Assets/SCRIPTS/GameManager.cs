@@ -6,7 +6,7 @@ public class GameManager : MonoBehaviour
 	//public static Player[] Jugadoers;
 	
 	public static GameManager Instancia;
-	
+	private bool Game;
 	public float TiempoDeJuego = 60;
 	
 	public enum EstadoJuego{Calibrando, Jugando, Finalizado}
@@ -105,8 +105,7 @@ public class GameManager : MonoBehaviour
 		case EstadoJuego.Calibrando:
 			
 			//SKIP EL TUTORIAL
-			if(Input.GetKey(KeyCode.Mouse0) &&
-			   Input.GetKey(KeyCode.Keypad0))
+			if(Input.GetKey(KeyCode.Mouse0) && Input.GetKey(KeyCode.Keypad0))
 			{
 				if(PlayerInfo1 != null && PlayerInfo2 != null)
 				{
@@ -118,13 +117,13 @@ public class GameManager : MonoBehaviour
 				}
 			}
 
-                if (PlayerInfo1.PJ == null && Input.GetKeyDown(KeyCode.W)) {
+                if (PlayerInfo1.PJ == null && InputManager.Instance.GetAxis("Vertical1") > 0.5f) {
                     PlayerInfo1 = new PlayerInfo(0, Player1);
                     PlayerInfo1.LadoAct = Visualizacion.Lado.Izq;
                     SetPosicion(PlayerInfo1);
                 }
 
-                if (PlayerInfo2.PJ == null && Input.GetKeyDown(KeyCode.UpArrow)) {
+                if (PlayerInfo2.PJ == null && InputManager.Instance.GetAxis("Vertical2") > 0.5f) {
                     PlayerInfo2 = new PlayerInfo(1, Player2);
                     PlayerInfo2.LadoAct = Visualizacion.Lado.Der;
                     SetPosicion(PlayerInfo2);
@@ -525,6 +524,14 @@ public class GameManager : MonoBehaviour
 				CambiarACarrera();//CambiarATutorial();
 		
 	}
+	public void SetGame(bool _game)
+    {
+		Game = _game;
+    }
+	public bool GetGame()
+    {
+		return Game;
+    }
 	
 	
 	

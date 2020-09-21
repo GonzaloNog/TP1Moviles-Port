@@ -130,7 +130,7 @@ public class Visualizacion : MonoBehaviour
 			//inventario
 			SetInv3();
 			//el bonus
-			SetBonus();
+			//SetBonus();
 			//contador de dinero
 			SetDinero();			
 			break;
@@ -401,7 +401,7 @@ public class Visualizacion : MonoBehaviour
 		Vector2 centro;
 		centro.x = R.x + R.width/2;
 		centro.y = R.y + R.height/2;
-		float angulo = 100 * Direccion.GetGiro();
+		float angulo = 100;
 		
 		GUIUtility.RotateAroundPivot(angulo, centro);
 				

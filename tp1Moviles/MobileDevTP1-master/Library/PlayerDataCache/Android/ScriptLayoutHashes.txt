@@ -1,7 +1,8 @@
 Android
 PlayerPath?
-C:/Users/noggo/OneDrive/Escritorio/1.apk
+C:/Users/noggo/OneDrive/Escritorio/3.apk
 SceneListBegin?
+Assets/ESCENAS/Manu.unity
 Assets/ESCENAS/conduccion9.unity
 Assets/ESCENAS/PtsFinal.unity
 SceneListEnd?
@@ -27,6 +28,7 @@ e7a73f5f78ba6445195ec23b74a1ce2d Unity.TextMeshPro.dll:TMPro.TMP_ScrollbarEventH
 a5705122ca9050789750344b108a3868 Assembly-CSharp.dll:.ContrTutorial
 5521825fdee94fa1c1da787668a9b1d0 Assembly-CSharp.dll:.ReductorVelColl
 0bd4ec55f69b79cd678eb68f80dbdaa0 Assembly-CSharp.dll:.AnimMngDesc
+a92c72bceade65233b160ecdbdec9bbc Assembly-CSharp.dll:.Button
 cf9f5cf2c3145a37ac07f00e50e460f9 UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
 507174d46dacbc5fe45e28485db5dd1e UnityEngine.UI.dll:UnityEngine.UI.Button
@@ -60,6 +62,7 @@ aa165095bcf0f4d99594ea33df01c81b UnityEngine.UI.dll:UnityEngine.UI.Slider
 abf1930d8126d0b2e00e9449129a0190 UnityEngine.UI.dll:UnityEngine.EventSystems.TouchInputModule
 64e54c0cbb0177c5ea26f340efb9ff85 UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
 d3c76b14a25eebd3a3323dd43297919c Unity.TextMeshPro.dll:TMPro.TMP_InputField
+9cbd401022f34d1b56e8832ab0eac39d Assembly-CSharp.dll:.CanvasControler
 1a0127fe411abcbfac54fdd241990824 Assembly-CSharp.dll:.ManejoPallets
 ce7c15d1185cff1081203dff41736cd0 Assembly-CSharp.dll:.Inventario
 50ea458638fbfe424e240be58c817d43 Assembly-CSharp.dll:.Bolsa
@@ -187,8 +190,11 @@ bfd6eace0ac58a226f7bd5e7e7ab561c Assembly-CSharp.dll:.Estanteria
 3dbc3c86c88762ad91a57785afe4a8d3 Assembly-CSharp.dll:.CollContraObst
 507174d46dacbc5fe45e28485db5dd1e Unity.Analytics.DataPrivacy.dll:UnityEngine.Analytics.DataPrivacyButton
 d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
-14fc01a8533897f299fdb7d75466746f Assembly-CSharp.dll:.ControlDireccion
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.Hard
+0648c8256b534a867534cb01e870336a Assembly-CSharp.dll:.ControlDireccion
 9794f29861ef5fe45869dbccb4fcb4f4 Assembly-CSharp.dll:.CarController
+90f2f6bef5c67c5b834089c9038168ce Assembly-CSharp.dll:.VirtualJoystic
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.ConfigControler
 d791aa6007fa3640be1164ea75bb087d Unity.TextMeshPro.dll:TMPro.TMP_StyleSheet
 d3c6b30c2948d9462d5eb21aa03e3a3e Assembly-CSharp.dll:.Obstaculo
 16b7ee1557f448952713c8a9862b4a77 Assembly-CSharp.dll:.Interruptores
